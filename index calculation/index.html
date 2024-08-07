@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beden Kitle İndeks</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="text">Beden Kitle İndeks Hesaplama</h1>
+        <div class="row">
+            <input type="range" min="10" max="200" value="20" id="weight">
+            <span id="weightValue">20 kg</span>
+        </div>
+        <div class="row">
+            <input type="range" min="30" max="250" value="40" id="height">
+            <span id="heightValue">150 cm</span>
+        </div>
+        <button type="submit" id="btn">Hesapla</button>
+        <p id="result">Vücut Kitle İndeks Sonucu</p>
+        <p id="category">Vücut Kitle İndeks Aralığı</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
